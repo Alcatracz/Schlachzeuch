@@ -1,20 +1,65 @@
 fileFormatVersion: 2
-guid: a141ccf10b282564792a7264e4e377fb
-timeCreated: 1510665378
+guid: 868a1c7ca93b81145aac6548e5701d48
+timeCreated: 1510742386
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: pPlane3
-    100002: //RootNode
-    400000: pPlane3
-    400002: //RootNode
-    2300000: pPlane3
-    3300000: pPlane3
-    4300000: pPlane3
-  externalObjects: {}
+    100000: //RootNode
+    100002: Floor
+    100004: Wall_1
+    100006: Wall_2
+    100008: Wall_3
+    100010: Wall_4
+    400000: //RootNode
+    400002: Floor
+    400004: Wall_1
+    400006: Wall_2
+    400008: Wall_3
+    400010: Wall_4
+    2300000: Floor
+    2300002: Wall_1
+    2300004: Wall_2
+    2300006: Wall_3
+    2300008: Wall_4
+    3300000: Floor
+    3300002: Wall_1
+    3300004: Wall_2
+    3300006: Wall_3
+    3300008: Wall_4
+    4300000: Floor
+    4300002: Wall_1
+    4300004: Wall_2
+    4300006: Wall_3
+    4300008: Wall_4
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloorMat
+    second: {fileID: 2100000, guid: 7b310cd3586aba6428a7911a9ea23202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_1Mat
+    second: {fileID: 2100000, guid: 1b73b85bc604c1849a454c84871467e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_2Mat
+    second: {fileID: 2100000, guid: 622076f2e40cbcc4fbe1c174bc517094, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_3Mat
+    second: {fileID: 2100000, guid: 9f3f331766275254aac0b8963c1a8e1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_4Mat
+    second: {fileID: 2100000, guid: 811b311ea85955042a6b69f317d66d0a, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
