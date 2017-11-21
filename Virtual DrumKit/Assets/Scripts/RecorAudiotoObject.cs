@@ -27,9 +27,8 @@ public class RecorAudiotoObject : MonoBehaviour
 
 	void Start()
 	{
-		//cdscript = (CD)cd.GetComponent<CD>();
-//		Recorder = GameObject.Find("Recorder");
-//		rec = Recorder.GetComponent<Recorder>(); 
+		Recorder = GameObject.Find("Recorder");
+		rec = Recorder.GetComponent<Recorder>(); 
 		fileName = Application.persistentDataPath + "/recording.wav";
 		print("lololol"+Application.persistentDataPath);
 	}
@@ -37,7 +36,7 @@ public class RecorAudiotoObject : MonoBehaviour
 	void Update()
 	{
 
-		if (Input.GetKeyDown("r"))
+		if (rec.recording)
 		{
 			print("rec");
 			if (recOutput == false)
