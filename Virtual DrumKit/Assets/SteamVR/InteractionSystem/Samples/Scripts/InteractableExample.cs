@@ -75,9 +75,7 @@ namespace Valve.VR.InteractionSystem
 					// Call this to undo HoverLock
 					hand.HoverUnlock( GetComponent<Interactable>() );
 
-					// Restore position/rotation
-					transform.position = oldPosition;
-					transform.rotation = oldRotation;
+				
 				}
 			}
 		}
