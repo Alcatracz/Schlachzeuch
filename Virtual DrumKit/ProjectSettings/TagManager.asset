@@ -4,9 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - FxTemporaire
   - Stick
-  - projectile
+  - Undefined
   - CD
   layers:
   - Default

@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4080052263722300}
   - component: {fileID: 33401121987578056}
-  - component: {fileID: 136585648448989984}
   - component: {fileID: 23518785943511074}
   - component: {fileID: 114453406998496516}
   - component: {fileID: 82713842434709108}
@@ -28,6 +27,7 @@ GameObject:
   - component: {fileID: 54320389887155358}
   - component: {fileID: 114030567446085536}
   - component: {fileID: 114628263668159504}
+  - component: {fileID: 65946202088258424}
   m_Layer: 0
   m_Name: CD
   m_TagString: CD
@@ -104,6 +104,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65946202088258424
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349495709997912}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1.0000002}
+  m_Center: {x: 0.000000059604638, y: 0, z: -0.00000008940697}
 --- !u!82 &82713842434709108
 AudioSource:
   m_ObjectHideFlags: 1
@@ -119,7 +131,7 @@ AudioSource:
   m_Pitch: 1
   Loop: 0
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
@@ -267,16 +279,3 @@ MonoBehaviour:
   velocityAverageFrames: 5
   angularVelocityAverageFrames: 11
   estimateOnAwake: 0
---- !u!136 &136585648448989984
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1349495709997912}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
