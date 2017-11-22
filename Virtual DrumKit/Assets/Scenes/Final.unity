@@ -442,7 +442,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 242943209}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2.5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1169,7 +1169,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 733663257}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 3.5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1489,7 +1489,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 883284304}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2.5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -2509,7 +2509,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1863074131}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.21200001, z: -2.299}
+  m_LocalPosition: {x: -0.93, y: 0.21200001, z: -3.64}
   m_LocalScale: {x: 0.5530585, y: 0.94843876, z: 0.5530587}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2533,7 +2533,7 @@ MonoBehaviour:
   showTriggerHint: 0
   attachmentFlags: -1
   attachmentPoint: 
-  takeBackItem: 0
+  takeBackItem: 1
   acceptDifferentItems: 0
   pickupEvent:
     m_PersistentCalls:
@@ -2920,7 +2920,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2072934006}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.38, y: 0.29900002, z: -3.69}
+  m_LocalPosition: {x: 0.01, y: 0.29900002, z: -3.69}
   m_LocalScale: {x: 0.42158905, y: 0.6215524, z: 0.55559534}
   m_Children:
   - {fileID: 1501507624}
