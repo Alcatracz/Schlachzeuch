@@ -9,10 +9,11 @@ using Valve.VR.InteractionSystem;
 public class InteractableButton : MonoBehaviour {
 
     public UnityEvent onButtonPress;
+    public string hintText = "Press F to pay respect"  
 
     void OnHandHoverBegin(Hand hand)
     {
-        ControllerButtonHints.ShowTextHint(hand, Valve.VR.EVRButtonId.k_EButton_SteamVR_Trigger, "Press F to pay Respect");
+        ControllerButtonHints.ShowTextHint(hand, Valve.VR.EVRButtonId.k_EButton_SteamVR_Trigger, hintText);
     }
 
     void OnHandHoverEnd(Hand hand)
