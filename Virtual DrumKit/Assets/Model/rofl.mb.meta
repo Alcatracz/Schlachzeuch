@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: 6911414616fccfe418dce47f48465e42
+timeCreated: 1511977397
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: back
+    100002: bassdrum1:Mesh
+    100004: bassdrum:Mesh
+    100006: bassdrum:pasted__Drumstick1
+    100008: bassdrum:pasted__Drumstick3
+    100010: bassdrum:pasted__pasted__pCylinder1
+    100012: bassdrum:pasted__pCylinder1
+    100014: bassdrum:pasted__pCylinder2
+    100016: bassdrum:pasted__pPipe1
+    100018: Becken1:pasted__pPipe1
+    100020: Becken2:pasted__pPipe1
+    100022: box:Mesh
+    100024: cubewand:Mesh
+    100026: directionalLight1
+    100028: drum:Mesh
+    100030: flasche:Mesh
+    100032: Floor
+    100034: group
+    100036: group1
+    100038: hangtom:Mesh
+    100040: Mesh
+    100042: Mesh1
+    100044: Mesh2
+    100046: Mesh3
+    100048: Mesh4
+    100050: Mesh5
+    100052: Mesh6
+    100054: Mesh7
+    100056: Mesh8
+    100058: Mesh9
+    100060: micro:Mesh
+    100062: pasted__Box04
+    100064: pasted__Box04_MeshPart0
+    100066: pasted__Box04_MeshPart1
+    100068: pasted__Object03
+    100070: pasted__Object05
+    100072: pasted__Object13
+    100074: pasted__Object14
+    100076: pCube1
+    100078: pCube2
+    100080: pCube3
+    100082: pCube4
+    100084: pCube5
+    100086: pCube6
+    100088: pCube7
+    100090: pCube8
+    100092: pCylinder1
+    100094: pCylinder1 1
+    100096: pCylinder2
+    100098: pCylinder2 1
+    100100: pCylinder3
+    100102: pCylinder4
+    100104: pCylinder5
+    100106: pCylinder6
+    100108: Regal:Mesh
+    100110: //RootNode
+    100112: Sofa1:Mesh
+    100114: Sofa1:Mesh_MeshPart0
+    100116: Sofa1:Mesh_MeshPart1
+    100118: Sofa1:Mesh_MeshPart2
+    100120: Sofa1:Mesh_MeshPart3
+    100122: Sofa1:Mesh_MeshPart4
+    100124: "St\xE4nder:pasted__pasted__pCylinder1"
+    100126: "St\xE4nder:pasted__pCylinder2"
+    100128: "St\xE4nder_Schr\xE4g:pasted__pasted__pCylinder1"
+    100130: "St\xE4nder_Schr\xE4g:pasted__pCylinder1"
+    100132: "St\xE4nder_Schr\xE4g:pasted__pCylinder2"
+    100134: Wall_1
+    100136: Wall_2
+    100138: Wall_3
+    100140: Wall_4
+    400000: back
+    400002: bassdrum1:Mesh
+    400004: bassdrum:Mesh
+    400006: bassdrum:pasted__Drumstick1
+    400008: bassdrum:pasted__Drumstick3
+    400010: bassdrum:pasted__pasted__pCylinder1
+    400012: bassdrum:pasted__pCylinder1
+    400014: bassdrum:pasted__pCylinder2
+    400016: bassdrum:pasted__pPipe1
+    400018: Becken1:pasted__pPipe1
+    400020: Becken2:pasted__pPipe1
+    400022: box:Mesh
+    400024: cubewand:Mesh
+    400026: directionalLight1
+    400028: drum:Mesh
+    400030: flasche:Mesh
+    400032: Floor
+    400034: group
+    400036: group1
+    400038: hangtom:Mesh
+    400040: Mesh
+    400042: Mesh1
+    400044: Mesh2
+    400046: Mesh3
+    400048: Mesh4
+    400050: Mesh5
+    400052: Mesh6
+    400054: Mesh7
+    400056: Mesh8
+    400058: Mesh9
+    400060: micro:Mesh
+    400062: pasted__Box04
+    400064: pasted__Box04_MeshPart0
+    400066: pasted__Box04_MeshPart1
+    400068: pasted__Object03
+    400070: pasted__Object05
+    400072: pasted__Object13
+    400074: pasted__Object14
+    400076: pCube1
+    400078: pCube2
+    400080: pCube3
+    400082: pCube4
+    400084: pCube5
+    400086: pCube6
+    400088: pCube7
+    400090: pCube8
+    400092: pCylinder1
+    400094: pCylinder1 1
+    400096: pCylinder2
+    400098: pCylinder2 1
+    400100: pCylinder3
+    400102: pCylinder4
+    400104: pCylinder5
+    400106: pCylinder6
+    400108: Regal:Mesh
+    400110: //RootNode
+    400112: Sofa1:Mesh
+    400114: Sofa1:Mesh_MeshPart0
+    400116: Sofa1:Mesh_MeshPart1
+    400118: Sofa1:Mesh_MeshPart2
+    400120: Sofa1:Mesh_MeshPart3
+    400122: Sofa1:Mesh_MeshPart4
+    400124: "St\xE4nder:pasted__pasted__pCylinder1"
+    400126: "St\xE4nder:pasted__pCylinder2"
+    400128: "St\xE4nder_Schr\xE4g:pasted__pasted__pCylinder1"
+    400130: "St\xE4nder_Schr\xE4g:pasted__pCylinder1"
+    400132: "St\xE4nder_Schr\xE4g:pasted__pCylinder2"
+    400134: Wall_1
+    400136: Wall_2
+    400138: Wall_3
+    400140: Wall_4
+    2000000: back
+    2300000: bassdrum1:Mesh
+    2300002: bassdrum:Mesh
+    2300004: bassdrum:pasted__Drumstick1
+    2300006: bassdrum:pasted__Drumstick3
+    2300008: bassdrum:pasted__pasted__pCylinder1
+    2300010: bassdrum:pasted__pCylinder1
+    2300012: bassdrum:pasted__pCylinder2
+    2300014: bassdrum:pasted__pPipe1
+    2300016: Becken1:pasted__pPipe1
+    2300018: Becken2:pasted__pPipe1
+    2300020: box:Mesh
+    2300022: cubewand:Mesh
+    2300024: drum:Mesh
+    2300026: flasche:Mesh
+    2300028: Floor
+    2300030: hangtom:Mesh
+    2300032: Mesh
+    2300034: Mesh1
+    2300036: Mesh2
+    2300038: Mesh3
+    2300040: Mesh4
+    2300042: Mesh5
+    2300044: Mesh6
+    2300046: Mesh7
+    2300048: Mesh8
+    2300050: Mesh9
+    2300052: micro:Mesh
+    2300054: pasted__Box04_MeshPart0
+    2300056: pasted__Box04_MeshPart1
+    2300058: pasted__Object03
+    2300060: pasted__Object05
+    2300062: pasted__Object13
+    2300064: pasted__Object14
+    2300066: pCube1
+    2300068: pCube2
+    2300070: pCube3
+    2300072: pCube4
+    2300074: pCube5
+    2300076: pCube6
+    2300078: pCube7
+    2300080: pCube8
+    2300082: pCylinder1
+    2300084: pCylinder1 1
+    2300086: pCylinder2
+    2300088: pCylinder2 1
+    2300090: pCylinder3
+    2300092: pCylinder4
+    2300094: pCylinder5
+    2300096: pCylinder6
+    2300098: Regal:Mesh
+    2300100: Sofa1:Mesh_MeshPart0
+    2300102: Sofa1:Mesh_MeshPart1
+    2300104: Sofa1:Mesh_MeshPart2
+    2300106: Sofa1:Mesh_MeshPart3
+    2300108: Sofa1:Mesh_MeshPart4
+    2300110: "St\xE4nder:pasted__pasted__pCylinder1"
+    2300112: "St\xE4nder:pasted__pCylinder2"
+    2300114: "St\xE4nder_Schr\xE4g:pasted__pasted__pCylinder1"
+    2300116: "St\xE4nder_Schr\xE4g:pasted__pCylinder1"
+    2300118: "St\xE4nder_Schr\xE4g:pasted__pCylinder2"
+    2300120: Wall_1
+    2300122: Wall_2
+    2300124: Wall_3
+    2300126: Wall_4
+    3300000: bassdrum1:Mesh
+    3300002: bassdrum:Mesh
+    3300004: bassdrum:pasted__Drumstick1
+    3300006: bassdrum:pasted__Drumstick3
+    3300008: bassdrum:pasted__pasted__pCylinder1
+    3300010: bassdrum:pasted__pCylinder1
+    3300012: bassdrum:pasted__pCylinder2
+    3300014: bassdrum:pasted__pPipe1
+    3300016: Becken1:pasted__pPipe1
+    3300018: Becken2:pasted__pPipe1
+    3300020: box:Mesh
+    3300022: cubewand:Mesh
+    3300024: drum:Mesh
+    3300026: flasche:Mesh
+    3300028: Floor
+    3300030: hangtom:Mesh
+    3300032: Mesh
+    3300034: Mesh1
+    3300036: Mesh2
+    3300038: Mesh3
+    3300040: Mesh4
+    3300042: Mesh5
+    3300044: Mesh6
+    3300046: Mesh7
+    3300048: Mesh8
+    3300050: Mesh9
+    3300052: micro:Mesh
+    3300054: pasted__Box04_MeshPart0
+    3300056: pasted__Box04_MeshPart1
+    3300058: pasted__Object03
+    3300060: pasted__Object05
+    3300062: pasted__Object13
+    3300064: pasted__Object14
+    3300066: pCube1
+    3300068: pCube2
+    3300070: pCube3
+    3300072: pCube4
+    3300074: pCube5
+    3300076: pCube6
+    3300078: pCube7
+    3300080: pCube8
+    3300082: pCylinder1
+    3300084: pCylinder1 1
+    3300086: pCylinder2
+    3300088: pCylinder2 1
+    3300090: pCylinder3
+    3300092: pCylinder4
+    3300094: pCylinder5
+    3300096: pCylinder6
+    3300098: Regal:Mesh
+    3300100: Sofa1:Mesh_MeshPart0
+    3300102: Sofa1:Mesh_MeshPart1
+    3300104: Sofa1:Mesh_MeshPart2
+    3300106: Sofa1:Mesh_MeshPart3
+    3300108: Sofa1:Mesh_MeshPart4
+    3300110: "St\xE4nder:pasted__pasted__pCylinder1"
+    3300112: "St\xE4nder:pasted__pCylinder2"
+    3300114: "St\xE4nder_Schr\xE4g:pasted__pasted__pCylinder1"
+    3300116: "St\xE4nder_Schr\xE4g:pasted__pCylinder1"
+    3300118: "St\xE4nder_Schr\xE4g:pasted__pCylinder2"
+    3300120: Wall_1
+    3300122: Wall_2
+    3300124: Wall_3
+    3300126: Wall_4
+    4300000: bassdrum:pasted__pCylinder2
+    4300002: bassdrum:pasted__pCylinder1
+    4300004: bassdrum:pasted__pasted__pCylinder1
+    4300006: Floor
+    4300008: Wall_1
+    4300010: Wall_2
+    4300012: Wall_3
+    4300014: bassdrum:pasted__pPipe1
+    4300016: "St\xE4nder:pasted__pCylinder2"
+    4300018: "St\xE4nder:pasted__pasted__pCylinder1"
+    4300020: Becken2:pasted__pPipe1
+    4300022: "St\xE4nder_Schr\xE4g:pasted__pCylinder1"
+    4300024: "St\xE4nder_Schr\xE4g:pasted__pasted__pCylinder1"
+    4300026: Becken1:pasted__pPipe1
+    4300028: Wall_4
+    4300030: bassdrum:Mesh
+    4300032: hangtom:Mesh
+    4300034: drum:Mesh
+    4300036: bassdrum:pasted__Drumstick1
+    4300038: bassdrum:pasted__Drumstick3
+    4300040: "St\xE4nder_Schr\xE4g:pasted__pCylinder2"
+    4300042: cubewand:Mesh
+    4300044: Mesh
+    4300046: Mesh1
+    4300048: Mesh2
+    4300050: bassdrum1:Mesh
+    4300052: pCube1
+    4300054: Sofa1:Mesh_MeshPart0
+    4300056: Sofa1:Mesh_MeshPart1
+    4300058: Sofa1:Mesh_MeshPart2
+    4300060: Sofa1:Mesh_MeshPart3
+    4300062: Sofa1:Mesh_MeshPart4
+    4300064: Regal:Mesh
+    4300066: micro:Mesh
+    4300068: flasche:Mesh
+    4300070: Mesh3
+    4300072: Mesh4
+    4300074: Mesh5
+    4300076: Mesh6
+    4300078: Mesh7
+    4300080: Mesh8
+    4300082: box:Mesh
+    4300084: Mesh9
+    4300086: pCube2
+    4300088: pCube3
+    4300090: pCylinder1
+    4300092: pCylinder2
+    4300094: pCylinder3
+    4300096: pCube8
+    4300098: pCube4
+    4300100: pCylinder5
+    4300102: pCylinder6
+    4300104: pCylinder4
+    4300106: pCube6
+    4300108: pCube7
+    4300110: pCube5
+    4300112: pCylinder1
+    4300114: pCylinder2
+    4300116: pasted__Box04_MeshPart0
+    4300118: pasted__Box04_MeshPart1
+    4300120: pasted__Object03
+    4300122: pasted__Object05
+    4300124: pasted__Object13
+    4300126: pasted__Object14
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: directionalLight1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: 532eb5efdc34c204ca936fdf1d3bf3a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sofa1_Material1
+    second: {fileID: 2100000, guid: e4671b8d13dadea46b02bd68e5ff2e34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sofa1_Material_003
+    second: {fileID: 2100000, guid: ae3f18cacbb3dac42a91784a2a2e40c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sofa1_Material_006
+    second: {fileID: 2100000, guid: a4a92f6501b08964a82fa9ec67699202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: box_null_1
+    second: {fileID: 2100000, guid: b763473a6005fd14fa5636a22728587c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 70afd7412b1a36946bb976f3084fe5be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 17a72538a20753741a1f554140add85c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: bf61c378995e6da4ea74c48b2ad10bb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 4655061cd2dc73c4f9535c39ad27c865, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: 56478dc9ea2b0d14794a714e24c53cd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micro_None1
+    second: {fileID: 2100000, guid: e527287773653594d822914184621ba0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__chrome
+    second: {fileID: 2100000, guid: 301d3c10dca8cf644aec49724db7a7a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__cymbal
+    second: {fileID: 2100000, guid: 301d3c10dca8cf644aec49724db7a7a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__faces
+    second: {fileID: 2100000, guid: 301d3c10dca8cf644aec49724db7a7a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__main
+    second: {fileID: 2100000, guid: 301d3c10dca8cf644aec49724db7a7a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong2
+    second: {fileID: 2100000, guid: 4c62fe0e575516d40a1502e6dc10226b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong3
+    second: {fileID: 2100000, guid: b57a3cf17ba89f843a513fbab46b0cb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong4
+    second: {fileID: 2100000, guid: 517937a3af5003a499ef4d874ce9e5f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong5
+    second: {fileID: 2100000, guid: f1f31d3fbe955e842a3993bcbe6241c4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
