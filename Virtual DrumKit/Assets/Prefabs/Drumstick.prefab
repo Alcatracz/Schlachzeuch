@@ -141,7 +141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57468e6cbae21894fa42c90413c294ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemPackage: {fileID: 0}
+  itemPackage: {fileID: 114227907896740690, guid: 38909f522761dd74e9b025cbab4181fb,
+    type: 2}
 --- !u!114 &114899700663294858
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -154,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportAllowed: 1
-  overrideHoverLock: 1
+  overrideHoverLock: 0
 --- !u!136 &136310095044535814
 CapsuleCollider:
   m_ObjectHideFlags: 1
