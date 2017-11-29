@@ -24,7 +24,7 @@ public class InteractableButton : MonoBehaviour {
     private void HandHoverUpdate(Hand hand)
     {
         //Trigger got pressed
-        if (hand.GetStandardInteractionButtonDown())
+        if (hand.GetStandardInteractionButtonDown() && onButtonPress != null)
         {
             onButtonPress.Invoke();
             ControllerButtonHints.HideTextHint(hand, Valve.VR.EVRButtonId.k_EButton_SteamVR_Trigger);
