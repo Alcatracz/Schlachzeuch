@@ -18,7 +18,6 @@ public class RecorAudiotoObject : MonoBehaviour
 	private int headerSize = 44;
 	private bool recOutput;
 	private FileStream fileStream;
-	private Recorder rec;
     private bool recording = false;
 
 	void Awake()
