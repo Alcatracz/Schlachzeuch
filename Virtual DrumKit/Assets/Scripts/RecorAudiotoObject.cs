@@ -18,7 +18,6 @@ public class RecorAudiotoObject : MonoBehaviour
 	private int headerSize = 44;
 	private bool recOutput;
 	private FileStream fileStream;
-	private GameObject Recorder;
 	private Recorder rec;
     private bool recording = false;
 
@@ -28,8 +27,6 @@ public class RecorAudiotoObject : MonoBehaviour
 
 	void Start()
 	{
-		Recorder = GameObject.Find("Recorder");
-		rec = Recorder.GetComponent<Recorder>(); 
 		fileName = Application.persistentDataPath + "/recording.wav";
 		print("lololol"+Application.persistentDataPath);
 	}
@@ -39,6 +36,7 @@ public class RecorAudiotoObject : MonoBehaviour
 
 		if (recording)
 		{
+
             recording = false;
 			print("rec");
 			if (recOutput == false)
@@ -160,10 +158,12 @@ public class RecorAudiotoObject : MonoBehaviour
 		fileStream.Close();
 
 	}
+
     public void Toggle()
     {
         recording = true;
     }
+
 }
 
 
