@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayAudio : MonoBehaviour
 {
     public AudioClip audioclip;
-
+    private float stickVelocity = 0.0f;
     private AudioSource audio;
     // Use this for initialization
     void Start()
@@ -23,6 +23,8 @@ public class PlayAudio : MonoBehaviour
     {
         if (other.gameObject.tag == "Stick")
         {
+
+            audio.volume = audio.volume * stickVelocity; 
             audio.Play();
 
         }
