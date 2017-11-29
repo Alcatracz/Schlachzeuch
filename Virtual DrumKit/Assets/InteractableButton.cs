@@ -9,7 +9,7 @@ using Valve.VR.InteractionSystem;
 public class InteractableButton : MonoBehaviour {
 
     public UnityEvent onButtonPress;
-    public string hintText = "Press F to pay respect"  
+    public string hintText = "Press F to pay respect";
 
     void OnHandHoverBegin(Hand hand)
     {
