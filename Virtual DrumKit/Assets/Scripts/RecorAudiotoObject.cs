@@ -20,6 +20,7 @@ public class RecorAudiotoObject : MonoBehaviour
 	private FileStream fileStream;
 	private GameObject Recorder;
 	private Recorder rec;
+    private bool recording = false;
 
 	void Awake()
 	{
@@ -36,8 +37,9 @@ public class RecorAudiotoObject : MonoBehaviour
 	void Update()
 	{
 
-		if (rec.recording)
+		if (recording)
 		{
+            recording = false;
 			print("rec");
 			if (recOutput == false)
 			{
@@ -158,6 +160,10 @@ public class RecorAudiotoObject : MonoBehaviour
 		fileStream.Close();
 
 	}
+    public void Toggle()
+    {
+        recording = true;
+    }
 }
 
 
