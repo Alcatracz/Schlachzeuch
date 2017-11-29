@@ -23,7 +23,9 @@ GameObject:
   - component: {fileID: 114899700663294858}
   - component: {fileID: 114048564932746008}
   - component: {fileID: 114751265923862710}
+  - component: {fileID: 114613911722611408}
   - component: {fileID: 114862256409111030}
+  - component: {fileID: 114738844444514654}
   m_Layer: 0
   m_Name: Drumstick
   m_TagString: Stick
@@ -129,6 +131,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemPackage: {fileID: 114227907896740690, guid: 38909f522761dd74e9b025cbab4181fb,
     type: 2}
+--- !u!114 &114613911722611408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1597640362693766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5240357a2468cdc4291b266bee3cb9b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114738844444514654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1597640362693766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114751265923862710
 MonoBehaviour:
   m_ObjectHideFlags: 1

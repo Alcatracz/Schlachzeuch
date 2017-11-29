@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Drumsticks
-  packageType: 1
+  packageType: 2
   itemPrefab: {fileID: 1597640362693766, guid: 548cccb604d2c1f45b9d145564f79196, type: 2}
   otherHandItemPrefab: {fileID: 1597640362693766, guid: 548cccb604d2c1f45b9d145564f79196,
     type: 2}
