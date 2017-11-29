@@ -3,11 +3,41 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
 
-[RequireComponent(typeof(Interactable))]
+//[RequireComponent(typeof(Interactable))]
 public class Drumstick : MonoBehaviour {
 
-    private Hand hand;
+    //private Hand hand;
+    private float stickvelocity = 1.0f;
+    private Vector3 velocity = Vector3.zero;
 
+    private VelocityEstimator ve;
+
+    void Start()
+    {
+        ve = GetComponent<VelocityEstimator>();
+        ve.BeginEstimatingVelocity();
+    }
+
+  
+
+    public void Collided()
+    {
+        ve.FinishEstimatingVelocity();
+        velocity = ve.GetVelocityEstimate();
+        stickvelocity = velocity.magnitude;
+        if (stickvelocity < 0)
+        {
+            stickvelocity = stickvelocity * -1;
+        }
+        Debug.Log("Velocity: " + stickvelocity);
+        ve.BeginEstimatingVelocity();
+    }
+
+    public float GetStickVelocity()
+    {
+        return this.stickvelocity;
+    }
+    /*
     private void OnHandHoverBegin(Hand hand)
     {
 
@@ -43,6 +73,6 @@ public class Drumstick : MonoBehaviour {
         gameObject.SetActive(true);
         OnAttachedToHand(hand);
     }
-
+    */
 
 }

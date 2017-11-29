@@ -23,7 +23,8 @@ public class PlayAudio : MonoBehaviour
     {
         if (other.gameObject.tag == "Stick")
         {
-
+            other.gameObject.GetComponent<Drumstick>().Collided();
+            stickVelocity = other.gameObject.GetComponent<Drumstick>().GetStickVelocity();
             audio.volume = audio.volume * stickVelocity; 
             audio.Play();
 
