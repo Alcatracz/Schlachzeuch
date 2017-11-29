@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Михаилплеть : MonoBehaviour
+public class AudioPlayer : MonoBehaviour
 {
 
 
