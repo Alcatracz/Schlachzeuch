@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: b987c49746903e34fbddfdfe2de2998c
-timeCreated: 1511985196
-=======
-guid: abc6fa52410d6f2468f5cd7f238661c5
-timeCreated: 1511985388
->>>>>>> 43b3eb17832316eb3aa5e46b1e0890741952ecfd
-licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -22,25 +15,18 @@ ModelImporter:
     3300002: pasted__Schild_pasted__REC_Schild
     4300000: pasted__REC_Schild_pasted__REC1
     4300002: pasted__Schild_pasted__REC_Schild
+    9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: box_null_
-<<<<<<< HEAD
     second: {fileID: 2100000, guid: 546f567d9f1440c42af12bc45d9cac7d, type: 2}
-=======
-    second: {fileID: 2100000, guid: 729cd9bdb0525de4da968dada83b13d2, type: 2}
->>>>>>> 43b3eb17832316eb3aa5e46b1e0890741952ecfd
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pasted__phong6SG
-<<<<<<< HEAD
     second: {fileID: 2100000, guid: baecc29a22b7864418ab33e1e297d853, type: 2}
-=======
-    second: {fileID: 2100000, guid: afc8a6730f7ec1f44b90fbcbc8bfe265, type: 2}
->>>>>>> 43b3eb17832316eb3aa5e46b1e0890741952ecfd
   materials:
     importMaterials: 1
     materialName: 0
@@ -112,7 +98,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
