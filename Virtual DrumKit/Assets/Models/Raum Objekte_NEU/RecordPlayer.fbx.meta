@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 942272f0fea997249aad1daf812373d7
+timeCreated: 1513031548
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: button
+    100002: CD
+    100004: Cylinder
+    100006: head
+    100008: pasted__Bar
+    100010: pasted__Button1
+    100012: pasted__Button2
+    100014: pasted__pCube6
+    100016: pasted__pCube7
+    100018: pasted__pCylinder1
+    100020: pasted__pCylinder4
+    100022: pasted__pCylinder5
+    100024: pasted__pCylinder6
+    100026: pasted__Record_Player
+    100028: pasted__Tuner
+    100030: pin
+    100032: //RootNode
+    100034: table
+    100036: Tuner
+    400000: button
+    400002: CD
+    400004: Cylinder
+    400006: head
+    400008: pasted__Bar
+    400010: pasted__Button1
+    400012: pasted__Button2
+    400014: pasted__pCube6
+    400016: pasted__pCube7
+    400018: pasted__pCylinder1
+    400020: pasted__pCylinder4
+    400022: pasted__pCylinder5
+    400024: pasted__pCylinder6
+    400026: pasted__Record_Player
+    400028: pasted__Tuner
+    400030: pin
+    400032: //RootNode
+    400034: table
+    400036: Tuner
+    2300000: button
+    2300002: CD
+    2300004: Cylinder
+    2300006: head
+    2300008: pasted__Bar
+    2300010: pasted__Button1
+    2300012: pasted__Button2
+    2300014: pasted__pCube6
+    2300016: pasted__pCube7
+    2300018: pasted__pCylinder1
+    2300020: pasted__pCylinder4
+    2300022: pasted__pCylinder5
+    2300024: pasted__pCylinder6
+    2300026: pasted__Record_Player
+    2300028: pasted__Tuner
+    2300030: pin
+    2300032: table
+    2300034: Tuner
+    3300000: button
+    3300002: CD
+    3300004: Cylinder
+    3300006: head
+    3300008: pasted__Bar
+    3300010: pasted__Button1
+    3300012: pasted__Button2
+    3300014: pasted__pCube6
+    3300016: pasted__pCube7
+    3300018: pasted__pCylinder1
+    3300020: pasted__pCylinder4
+    3300022: pasted__pCylinder5
+    3300024: pasted__pCylinder6
+    3300026: pasted__Record_Player
+    3300028: pasted__Tuner
+    3300030: pin
+    3300032: table
+    3300034: Tuner
+    4300000: pasted__Record_Player
+    4300002: pasted__pCylinder1
+    4300004: button
+    4300006: head
+    4300008: Cylinder
+    4300010: pin
+    4300012: table
+    4300014: CD
+    4300016: pasted__pCylinder5
+    4300018: pasted__pCylinder6
+    4300020: pasted__pCylinder4
+    4300022: pasted__pCube6
+    4300024: pasted__pCube7
+    4300026: Tuner
+    4300028: pasted__Button1
+    4300030: pasted__Button2
+    4300032: pasted__Tuner
+    4300034: pasted__Bar
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sofa1_Material_006
+    second: {fileID: 2100000, guid: 8254e2b2046475e46b834200d4d1123e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sofa1_Material_007
+    second: {fileID: 2100000, guid: 80487f57a23f5d540bf49d8ad8bfe6b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 4cf20ad5447aeec47883b78aafa92990, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 57cbd1b6391508a489cb8808ac797403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 4dfb7c7c77031af459adc8af00cffcb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Gold
+    second: {fileID: 2100000, guid: 9a4d827f4b75526498a576cc44ecd744, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Gold1
+    second: {fileID: 2100000, guid: 674fe337b3cbb6f44b137d7ce993efb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__lambert3
+    second: {fileID: 2100000, guid: 1135f8bd43fb99e41b164c709c3fbe75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__lambert4
+    second: {fileID: 2100000, guid: 7017ec4ecfaa7c948b905859d70a5d63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__phong3
+    second: {fileID: 2100000, guid: 0339488782870e04a874eda2963aea70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__phong4
+    second: {fileID: 2100000, guid: 8f06c858247d2354e91f3b4440be6af8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__phong5
+    second: {fileID: 2100000, guid: 06eb15c1ea74b3444a3fd38c54ce81a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__phong6
+    second: {fileID: 2100000, guid: 54ba297edbb5b944688d830aa4cec8d3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
