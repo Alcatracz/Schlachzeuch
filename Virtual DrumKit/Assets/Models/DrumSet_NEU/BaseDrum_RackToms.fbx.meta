@@ -71,8 +71,13 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+<<<<<<< HEAD
     importVisibility: 0
     importBlendShapes: 0
+=======
+    importVisibility: 1
+    importBlendShapes: 1
+>>>>>>> endpresentation
     importCameras: 0
     importLights: 0
     swapUVChannels: 0
