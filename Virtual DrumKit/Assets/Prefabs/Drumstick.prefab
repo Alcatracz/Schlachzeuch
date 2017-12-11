@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportAllowed: 1
-  overrideHoverLock: 1
+  overrideHoverLock: 0
 --- !u!114 &114693943511217800
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -175,7 +175,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1205697672915746}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.1
   m_Height: 3
