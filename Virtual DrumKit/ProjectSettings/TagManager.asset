@@ -7,6 +7,7 @@ TagManager:
   - Stick
   - Undefined
   - CD
+  - Claves
   layers:
   - Default
   - TransparentFX

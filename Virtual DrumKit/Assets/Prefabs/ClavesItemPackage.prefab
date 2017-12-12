@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1099957888142094}
+  m_IsPrefabParent: 1
+--- !u!1 &1099957888142094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4592817283251394}
+  - component: {fileID: 114850120808677412}
+  m_Layer: 0
+  m_Name: ClavesItemPackage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4592817283251394
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1099957888142094}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.0714301, y: 0.62911546, z: 0.718113}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114850120808677412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1099957888142094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f83db71b9a6764abf964ab7679f035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Claves Item Package
+  packageType: 2
+  itemPrefab: {fileID: 1998415616738818, guid: f6b58f703fdbd294d8fcfc3e0563082a, type: 2}
+  otherHandItemPrefab: {fileID: 1170854195963620, guid: 8c346407c5dd432489d39bc2edf0ffd7,
+    type: 2}
+  previewPrefab: {fileID: 1483880285032740, guid: 835a640e6f678d34eb185dc70ad0b76d,
+    type: 2}
+  fadedPreviewPrefab: {fileID: 1187583490519194, guid: 3004ad5b70c8b714e8bbb326e7ed6fcd,
+    type: 2}
