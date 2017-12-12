@@ -12,8 +12,10 @@ public class Drumstick : MonoBehaviour
 
     public string attachmentPoint; 
     [Tooltip("When detaching the object, should it return to its original parent?")] 
-    public bool restoreOriginalParent = false; 
- 
+    public bool restoreOriginalParent = false;
+
+    private CapsuleCollider ownCollider;
+    private Rigidbody rb;
     private Hand hand;
     private float stickvelocity = 1.0f;
     private Vector3 velocity = Vector3.zero;
@@ -22,6 +24,8 @@ public class Drumstick : MonoBehaviour
 
     void Start()
     {
+        ownCollider = GetComponent<CapsuleCollider>();
+        rb = GetComponent<Rigidbody>();
         ve = GetComponent<VelocityEstimator>();
         ve.BeginEstimatingVelocity();
     }
@@ -60,6 +64,9 @@ public class Drumstick : MonoBehaviour
     {
         if (hand.GetStandardInteractionButtonDown())
         {
+            rb.isKinematic = true;
+            rb.useGravity = false;
+            ownCollider.isTrigger = true;
             hand.AttachObject(gameObject,attachmentFlags,attachmentPoint);
             ControllerButtonHints.HideTextHint(hand, Valve.VR.EVRButtonId.k_EButton_SteamVR_Trigger);
         }
@@ -71,6 +78,10 @@ public class Drumstick : MonoBehaviour
             if (hand.controller.GetPressDown(Valve.VR.EVRButtonId.k_EButton_Grip))
             {
                 hand.DetachObject(gameObject,restoreOriginalParent);
+                ownCollider.isTrigger = false;
+                rb.isKinematic = false;
+                rb.useGravity = true;
+                
             }
         }
     }
