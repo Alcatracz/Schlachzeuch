@@ -42,8 +42,9 @@ public class Drumstick : MonoBehaviour
             stickvelocity = stickvelocity * -1;
         }
         Debug.Log("Velocity: " + stickvelocity);
-        hand.controller.TriggerHapticPulse(400);
         ve.BeginEstimatingVelocity();
+        hand.controller.TriggerHapticPulse(400);
+        
     }
 
     public float GetStickVelocity()

@@ -6,14 +6,14 @@ public class PlayAudio : MonoBehaviour
 {
     public AudioClip audioclip;
     private float stickVelocity = 0.0f;
-    private AudioSource audio;
-    float standardvolume;
+    private AudioSource audioSource;
+    float standardvolume= 1.0f;
     // Use this for initialization
     void Start()
     {
 
-        audio = GetComponent<AudioSource>();
-        standardvolume = audio.volume;
+        audioSource = GetComponent<AudioSource>();
+        //standardvolume = audioSource.volume;
     }
 
     // Update is called once per frame
@@ -29,8 +29,8 @@ public class PlayAudio : MonoBehaviour
 
             other.gameObject.GetComponent<Drumstick>().Collided();
             stickVelocity = other.gameObject.GetComponent<Drumstick>().GetStickVelocity();
-            audio.volume = standardvolume * stickVelocity;
-            audio.Play();
+            audioSource.volume = standardvolume * stickVelocity;
+            audioSource.Play();
             //audio.volume = standardvolume;
 
         }
