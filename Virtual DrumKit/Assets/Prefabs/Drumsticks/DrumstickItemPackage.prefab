@@ -53,8 +53,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Drumsticks
   packageType: 2
-  itemPrefab: {fileID: 1597640362693766, guid: 548cccb604d2c1f45b9d145564f79196, type: 2}
-  otherHandItemPrefab: {fileID: 1597640362693766, guid: 548cccb604d2c1f45b9d145564f79196,
+  itemPrefab: {fileID: 1687290190898512, guid: 389e4c3d725cd794480e7d32127c4a8d, type: 2}
+  otherHandItemPrefab: {fileID: 1687290190898512, guid: 389e4c3d725cd794480e7d32127c4a8d,
     type: 2}
-  previewPrefab: {fileID: 0}
-  fadedPreviewPrefab: {fileID: 0}
+  previewPrefab: {fileID: 1657998144417364, guid: f5aa01341dca4dc44b22e28c661d5c63,
+    type: 2}
+  fadedPreviewPrefab: {fileID: 1350188801090270, guid: 98da82dc9c9bd4d4d9d804f0ebf16b4d,
+    type: 2}
