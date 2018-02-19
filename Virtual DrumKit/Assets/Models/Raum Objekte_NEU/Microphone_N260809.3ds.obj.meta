@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: 88e42e6f23ead744db14f03233602869
+timeCreated: 1518983892
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ChamferBo0_19
+    100002: ChamferBox_7
+    100004: ChamferCy0_23
+    100006: ChamferCyl_22
+    100008: Cylinder01_0
+    100010: Cylinder02_1
+    100012: Cylinder03_6
+    100014: Cylinder04_8
+    100016: Cylinder05_21
+    100018: //RootNode
+    100020: Object01_10
+    100022: Object02_11
+    100024: Object03_12
+    100026: Object04_13
+    100028: Object05_14
+    100030: Object06_9
+    100032: Object07_16
+    100034: Object08_17
+    100036: Object09_15
+    100038: Object10_18
+    100040: Object11_20
+    100042: Tube01_2
+    100044: Tube02_3
+    100046: Tube03_4
+    100048: Tube04_5
+    400000: ChamferBo0_19
+    400002: ChamferBox_7
+    400004: ChamferCy0_23
+    400006: ChamferCyl_22
+    400008: Cylinder01_0
+    400010: Cylinder02_1
+    400012: Cylinder03_6
+    400014: Cylinder04_8
+    400016: Cylinder05_21
+    400018: //RootNode
+    400020: Object01_10
+    400022: Object02_11
+    400024: Object03_12
+    400026: Object04_13
+    400028: Object05_14
+    400030: Object06_9
+    400032: Object07_16
+    400034: Object08_17
+    400036: Object09_15
+    400038: Object10_18
+    400040: Object11_20
+    400042: Tube01_2
+    400044: Tube02_3
+    400046: Tube03_4
+    400048: Tube04_5
+    2100000: ChamferBo0_19Mat
+    2100002: ChamferBox_7Mat
+    2100004: ChamferCy0_23Mat
+    2100006: ChamferCyl_22Mat
+    2100008: Cylinder01_0Mat
+    2100010: Cylinder02_1Mat
+    2100012: Cylinder03_6Mat
+    2100014: Cylinder04_8Mat
+    2100016: Cylinder05_21Mat
+    2100018: Object01_10Mat
+    2100020: Object02_11Mat
+    2100022: Object03_12Mat
+    2100024: Object04_13Mat
+    2100026: Object05_14Mat
+    2100028: Object06_9Mat
+    2100030: Object07_16Mat
+    2100032: Object08_17Mat
+    2100034: Object09_15Mat
+    2100036: Object10_18Mat
+    2100038: Object11_20Mat
+    2100040: Tube01_2Mat
+    2100042: Tube02_3Mat
+    2100044: Tube03_4Mat
+    2100046: Tube04_5Mat
+    2300000: ChamferBo0_19
+    2300002: ChamferBox_7
+    2300004: ChamferCy0_23
+    2300006: ChamferCyl_22
+    2300008: Cylinder01_0
+    2300010: Cylinder02_1
+    2300012: Cylinder03_6
+    2300014: Cylinder04_8
+    2300016: Cylinder05_21
+    2300018: Object01_10
+    2300020: Object02_11
+    2300022: Object03_12
+    2300024: Object04_13
+    2300026: Object05_14
+    2300028: Object06_9
+    2300030: Object07_16
+    2300032: Object08_17
+    2300034: Object09_15
+    2300036: Object10_18
+    2300038: Object11_20
+    2300040: Tube01_2
+    2300042: Tube02_3
+    2300044: Tube03_4
+    2300046: Tube04_5
+    3300000: ChamferBo0_19
+    3300002: ChamferBox_7
+    3300004: ChamferCy0_23
+    3300006: ChamferCyl_22
+    3300008: Cylinder01_0
+    3300010: Cylinder02_1
+    3300012: Cylinder03_6
+    3300014: Cylinder04_8
+    3300016: Cylinder05_21
+    3300018: Object01_10
+    3300020: Object02_11
+    3300022: Object03_12
+    3300024: Object04_13
+    3300026: Object05_14
+    3300028: Object06_9
+    3300030: Object07_16
+    3300032: Object08_17
+    3300034: Object09_15
+    3300036: Object10_18
+    3300038: Object11_20
+    3300040: Tube01_2
+    3300042: Tube02_3
+    3300044: Tube03_4
+    3300046: Tube04_5
+    4300000: ChamferBo0_19
+    4300002: ChamferBox_7
+    4300004: ChamferCy0_23
+    4300006: ChamferCyl_22
+    4300008: Cylinder01_0
+    4300010: Cylinder02_1
+    4300012: Cylinder03_6
+    4300014: Cylinder04_8
+    4300016: Cylinder05_21
+    4300018: Object01_10
+    4300020: Object02_11
+    4300022: Object03_12
+    4300024: Object04_13
+    4300026: Object05_14
+    4300028: Object06_9
+    4300030: Object07_16
+    4300032: Object08_17
+    4300034: Object09_15
+    4300036: Object10_18
+    4300038: Object11_20
+    4300040: Tube01_2
+    4300042: Tube02_3
+    4300044: Tube03_4
+    4300046: Tube04_5
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
