@@ -37,7 +37,32 @@ ModelImporter:
     4300004: Box016_4
     4300006: Tube028_0
     4300008: Tube029_2
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box014_1Mat
+    second: {fileID: 2100000, guid: 69ebfe5b899317a4a97d545cf3d95cfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box015_3Mat
+    second: {fileID: 2100000, guid: 5289722ecb83bd64cb8c895e2a2c9791, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box016_4Mat
+    second: {fileID: 2100000, guid: c106228faab5f9c4a8bc12e8311cfbe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube028_0Mat
+    second: {fileID: 2100000, guid: 5a27b91043f780f4d9299465ecaf877e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube029_2Mat
+    second: {fileID: 2100000, guid: d670527fbd65bab4594b926653f5e81d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -13,7 +13,12 @@ ModelImporter:
     2300000: Lathe_NURBS
     3300000: Lathe_NURBS
     4300000: Lathe_NURBS
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lathe_NURBSMat
+    second: {fileID: 2100000, guid: 25e34ec44f7a5b948b02a967bf69352a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

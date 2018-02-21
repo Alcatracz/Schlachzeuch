@@ -31,7 +31,27 @@ ModelImporter:
     4300002: Electric_mesh01_1
     4300004: Electric_mesh01_2
     4300006: Electric_usemtl_1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electric__1Mat
+    second: {fileID: 2100000, guid: 4a37b0f06d39da943b87de7ce80290c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electric_mesh01_1Mat
+    second: {fileID: 2100000, guid: 4ac5ccca1c532c845be2dcbf51360041, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electric_mesh01_2Mat
+    second: {fileID: 2100000, guid: 4ac5ccca1c532c845be2dcbf51360041, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electric_usemtl_1Mat
+    second: {fileID: 2100000, guid: 3b3d0394e58320c4d8b6f69f1065e736, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

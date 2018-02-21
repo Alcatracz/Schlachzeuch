@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: e8970fc08d2298444a5458aa01814b94
+timeCreated: 1519239953
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body
+    100002: Bridge
+    100004: Fingerboard
+    100006: //RootNode
+    100008: Frets
+    100010: Head_Stock
+    100012: Machine_Heads
+    100014: Neck
+    100016: Nut
+    100018: Output_Jack
+    100020: Pickups
+    100022: Selector_switch
+    100024: Strap_pin
+    100026: Strings
+    100028: Tuning_Pegs
+    100030: Volume_-_Tone_knob
+    400000: Body
+    400002: Bridge
+    400004: Fingerboard
+    400006: //RootNode
+    400008: Frets
+    400010: Head_Stock
+    400012: Machine_Heads
+    400014: Neck
+    400016: Nut
+    400018: Output_Jack
+    400020: Pickups
+    400022: Selector_switch
+    400024: Strap_pin
+    400026: Strings
+    400028: Tuning_Pegs
+    400030: Volume_-_Tone_knob
+    2100000: Strings
+    2100002: Strings_2
+    2100004: Silver_001
+    2100006: Material_010
+    2100008: Material
+    2100010: unnamed
+    2100012: Silver
+    2100014: Silver__Flying_V_1_jpg
+    2100016: White
+    2100018: Black__Flying_V_1_jpg
+    2100020: Material_002
+    2100022: Black_002
+    2100024: Black_002__Flying_V_1_jpg
+    2100026: Silver_002__Flying_V_1_jpg
+    2100028: Silver_002
+    2100030: White_002
+    2100032: Material_007
+    2100034: Black_001
+    2100036: Material_001
+    2300000: Body
+    2300002: Bridge
+    2300004: Fingerboard
+    2300006: Frets
+    2300008: Head_Stock
+    2300010: Machine_Heads
+    2300012: Neck
+    2300014: Nut
+    2300016: Output_Jack
+    2300018: Pickups
+    2300020: Selector_switch
+    2300022: Strap_pin
+    2300024: Strings
+    2300026: Tuning_Pegs
+    2300028: Volume_-_Tone_knob
+    3300000: Body
+    3300002: Bridge
+    3300004: Fingerboard
+    3300006: Frets
+    3300008: Head_Stock
+    3300010: Machine_Heads
+    3300012: Neck
+    3300014: Nut
+    3300016: Output_Jack
+    3300018: Pickups
+    3300020: Selector_switch
+    3300022: Strap_pin
+    3300024: Strings
+    3300026: Tuning_Pegs
+    3300028: Volume_-_Tone_knob
+    4300000: Strings
+    4300002: Tuning_Pegs
+    4300004: Machine_Heads
+    4300006: Strap_pin
+    4300008: Bridge
+    4300010: Selector_switch
+    4300012: Output_Jack
+    4300014: Volume_-_Tone_knob
+    4300016: Pickups
+    4300018: Fingerboard
+    4300020: Frets
+    4300022: Head_Stock
+    4300024: Nut
+    4300026: Body
+    4300028: Neck
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

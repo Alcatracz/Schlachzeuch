@@ -91,9 +91,79 @@ ModelImporter:
     4300022: Rack_Null_Cube_12
     4300024: Rack_Sides_Sweep
     4300026: Rack_Sides_Sweep_3
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Null_1_Atom_Array_11Mat
+    second: {fileID: 2100000, guid: 8cdd548f3398c1b4da580b95ea9c22ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Null_1_Cube2Mat
+    second: {fileID: 2100000, guid: c362058392173654190fff32eebe6d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Null_1_Cube3Mat
+    second: {fileID: 2100000, guid: c362058392173654190fff32eebe6d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Null_1_Cube_11Mat
+    second: {fileID: 2100000, guid: c362058392173654190fff32eebe6d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Null_2_Atom_Array_1Mat
+    second: {fileID: 2100000, guid: 8cdd548f3398c1b4da580b95ea9c22ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Null_2_Cube1Mat
+    second: {fileID: 2100000, guid: c362058392173654190fff32eebe6d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Null_2_CubeMat
+    second: {fileID: 2100000, guid: c362058392173654190fff32eebe6d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Null_2_Cube_1Mat
+    second: {fileID: 2100000, guid: c362058392173654190fff32eebe6d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Null_Atom_Array_12Mat
+    second: {fileID: 2100000, guid: 8cdd548f3398c1b4da580b95ea9c22ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Null_Cube4Mat
+    second: {fileID: 2100000, guid: c362058392173654190fff32eebe6d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Null_Cube5Mat
+    second: {fileID: 2100000, guid: c362058392173654190fff32eebe6d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Null_Cube_12Mat
+    second: {fileID: 2100000, guid: c362058392173654190fff32eebe6d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Sides_SweepMat
+    second: {fileID: 2100000, guid: c362058392173654190fff32eebe6d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_Sides_Sweep_3Mat
+    second: {fileID: 2100000, guid: c362058392173654190fff32eebe6d4e, type: 2}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1

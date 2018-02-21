@@ -13,9 +13,14 @@ ModelImporter:
     2300000: Sphere_1
     3300000: Sphere_1
     4300000: Sphere_1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere_1Mat
+    second: {fileID: 2100000, guid: e4a530ef1afcef04d97a9b590f7ec7bb, type: 2}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
