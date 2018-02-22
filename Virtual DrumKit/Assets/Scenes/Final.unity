@@ -3337,7 +3337,7 @@ GameObject:
   - component: {fileID: 1138038803}
   - component: {fileID: 1138038802}
   m_Layer: 0
-  m_Name: Button_ButtonHints
+  m_Name: Button_Weiter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4221,6 +4221,7 @@ GameObject:
   - component: {fileID: 1465972263}
   - component: {fileID: 1465972265}
   - component: {fileID: 1465972264}
+  - component: {fileID: 1465972266}
   m_Layer: 0
   m_Name: HintCanvas
   m_TagString: Untagged
@@ -4306,6 +4307,17 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &1465972266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1465972261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4af8ac65c03f941807d69bc0263109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1478072088
 GameObject:
   m_ObjectHideFlags: 0
@@ -4320,7 +4332,7 @@ GameObject:
   - component: {fileID: 1478072091}
   - component: {fileID: 1478072090}
   m_Layer: 0
-  m_Name: Button_TextHints
+  m_Name: Button_Neuladen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4360,9 +4372,9 @@ MonoBehaviour:
   onHandClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: ShowTextHints
-        m_Mode: 0
+      - m_Target: {fileID: 1465972266}
+        m_MethodName: hardRestarttheGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6225,7 +6237,7 @@ GameObject:
   - component: {fileID: 2052221078}
   - component: {fileID: 2052221077}
   m_Layer: 0
-  m_Name: Button_DisableHints
+  m_Name: Button_Beenden
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6317,8 +6329,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: DisableHints
+      - m_Target: {fileID: 1465972266}
+        m_MethodName: quittheGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
