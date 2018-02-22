@@ -5,15 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class VRUIFunctions : MonoBehaviour {
 
-	void hardRestarttheGame(){
+	public void hardRestarttheGame(){
 		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 	}
 
-	void starttheGame(){
+	public void starttheGame(){
 	
 	}
 
-	void quittheGame(){
+	public void quittheGame(){
 		Application.Quit();
 	}
 
