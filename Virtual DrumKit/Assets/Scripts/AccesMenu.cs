@@ -7,7 +7,7 @@ using Valve.VR.InteractionSystem;
 public class AccesMenu : MonoBehaviour
 {
 
-	private Hand hand;
+	public Hand hand;
 	public GameObject ui;
 
 

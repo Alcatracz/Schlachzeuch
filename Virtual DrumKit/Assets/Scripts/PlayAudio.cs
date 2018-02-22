@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class PlayAudio : MonoBehaviour
 {
-    public AudioClip audioclip;
+    public AudioClip soundLeise;
+    public AudioClip soundMittel;
+    public AudioClip soundLaut;
+
+    enum Lautstaerke {Leise, Mittel, Laut};
+
     private float stickVelocity = 0.0f;
     private AudioSource audioSource;
     float standardvolume= 1.0f;
@@ -26,14 +31,53 @@ public class PlayAudio : MonoBehaviour
     {
         if (other.gameObject.tag == "Stick")
         {
+            print("Stick hit");
 
             other.gameObject.GetComponent<Drumstick>().Collided();
             stickVelocity = other.gameObject.GetComponent<Drumstick>().GetStickVelocity();
+
+            Lautstaerke ls = Lautstaerke.Leise;
+            if (stickVelocity<= 1)
+            {
+                print("Leise");
+                ls = Lautstaerke.Leise;
+            }
+            else if(stickVelocity>1 && stickVelocity<=4)
+            {
+                print("Mittel");
+                ls = Lautstaerke.Mittel ;
+            } else if (stickVelocity>4)
+            {
+                print("Laut");
+                ls = Lautstaerke.Laut;
+            }
+
+            switch (ls)
+            {
+                case Lautstaerke.Laut:
+                    audioSource.clip = soundLaut;
+                    print("Laut Clip");
+                    break;
+
+                case Lautstaerke.Mittel:
+                    print("Mittel Clip");
+                    audioSource.clip = soundMittel;
+                    break;
+
+                case Lautstaerke.Leise:
+                    print("Leise Clip");
+                    audioSource.clip = soundLeise;
+                    break;
+
+            }
             audioSource.volume = standardvolume * stickVelocity;
             audioSource.Play();
+            print("Play");
             //audio.volume = standardvolume;
 
         }
 
     }
+
+
 }
