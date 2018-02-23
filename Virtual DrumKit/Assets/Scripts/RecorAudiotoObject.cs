@@ -26,7 +26,8 @@ public class RecorAudiotoObject : MonoBehaviour
 
 	void Start()
 	{
-		fileName = Application.persistentDataPath + "/"+DateTime.Now.ToString+".wav";
+		
+		fileName = Application.persistentDataPath + "/recording.wav";
 	}
 
 	void Update()
@@ -49,6 +50,8 @@ public class RecorAudiotoObject : MonoBehaviour
 				print("rec stop");
 				cd = (GameObject)Instantiate (cdprefab, Creationpoint.transform.position, Creationpoint.transform.rotation);
 				cdscript = (CD)cd.GetComponent<CD>();
+				string patherino = DateTime.Now.ToString();
+				fileName = Application.persistentDataPath +patherino+".wav";
 				cdscript.setpath (fileName);
 				print (cdscript.getpath());
 				WWW www = new WWW ("file://"+fileName);
