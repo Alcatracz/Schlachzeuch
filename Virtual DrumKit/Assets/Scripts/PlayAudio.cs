@@ -11,6 +11,7 @@ public class PlayAudio : MonoBehaviour
     enum Lautstaerke {Leise, Mittel, Laut};
 
     private float stickVelocity = 0.0f;
+    private Vector3 direction;
     private AudioSource audioSource;
     float standardvolume= 1.0f;
     // Use this for initialization
@@ -31,26 +32,15 @@ public class PlayAudio : MonoBehaviour
     {
         if (other.gameObject.tag == "Stick")
         {
-            Vector3 direction = other.transform.position - transform.position;
-
-            if (Vector3.Dot(transform.forward, direction) > 0)
-            {
-                print("Back");
-            }
-            if (Vector3.Dot(transform.forward, direction) < 0)
-            {
-                print("Front");
-            }
-            if (Vector3.Dot(transform.forward, direction) == 0)
-            {
-                print("Side");
-            }
-
-            print("Stick hit");
+   
+            
 
             other.gameObject.GetComponent<Drumstick>().Collided();
             stickVelocity = other.gameObject.GetComponent<Drumstick>().GetStickVelocity();
+            direction = other.gameObject.GetComponent<Drumstick>().GetDirection();
 
+
+            if (direction.y<0) { 
             Lautstaerke ls = Lautstaerke.Leise;
             if (stickVelocity<= 1)
             {
@@ -88,7 +78,8 @@ public class PlayAudio : MonoBehaviour
             audioSource.volume = standardvolume * stickVelocity;
             audioSource.Play();
             print("Play");
-            //audio.volume = standardvolume;
+                //audio.volume = standardvolume;
+            }
 
         }
 
