@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 84d301db348ff3a4db1624d4b31ffdf6
+timeCreated: 1519396504
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Ring_Schellenkranz
+    100002: //RootNode
+    100004: Schellenkranz_Becken
+    100006: Schellenkranz_Becken1
+    100008: Schellenkranz_Becken2
+    100010: Schellenkranz_Becken3
+    100012: Schellenkranz_Becken4
+    100014: Schellenkranz_Becken5
+    100016: Schellenkranz_Becken6
+    100018: Schellenkranz_Becken7
+    100020: Schellenkranz_Becken8
+    100022: Schellenkranz_Becken9
+    100024: Schellenkranz_pCylinder4
+    100026: Schellenkranz_pCylinder5
+    100028: Schellenkranz_pCylinder6
+    100030: Schellenkranz_pCylinder7
+    100032: Schellenkranz_pCylinder8
+    400000: Ring_Schellenkranz
+    400002: //RootNode
+    400004: Schellenkranz_Becken
+    400006: Schellenkranz_Becken1
+    400008: Schellenkranz_Becken2
+    400010: Schellenkranz_Becken3
+    400012: Schellenkranz_Becken4
+    400014: Schellenkranz_Becken5
+    400016: Schellenkranz_Becken6
+    400018: Schellenkranz_Becken7
+    400020: Schellenkranz_Becken8
+    400022: Schellenkranz_Becken9
+    400024: Schellenkranz_pCylinder4
+    400026: Schellenkranz_pCylinder5
+    400028: Schellenkranz_pCylinder6
+    400030: Schellenkranz_pCylinder7
+    400032: Schellenkranz_pCylinder8
+    2100000: Ring_SchellenkranzMat
+    2100002: Schellenkranz_BeckenMat
+    2100004: Schellenkranz_Becken1Mat
+    2100006: Schellenkranz_Becken2Mat
+    2100008: Schellenkranz_Becken3Mat
+    2100010: Schellenkranz_Becken4Mat
+    2100012: Schellenkranz_Becken5Mat
+    2100014: Schellenkranz_Becken6Mat
+    2100016: Schellenkranz_Becken7Mat
+    2100018: Schellenkranz_Becken8Mat
+    2100020: Schellenkranz_Becken9Mat
+    2100022: Schellenkranz_pCylinder4Mat
+    2100024: Schellenkranz_pCylinder5Mat
+    2100026: Schellenkranz_pCylinder6Mat
+    2100028: Schellenkranz_pCylinder7Mat
+    2100030: Schellenkranz_pCylinder8Mat
+    2300000: Ring_Schellenkranz
+    2300002: Schellenkranz_Becken
+    2300004: Schellenkranz_Becken1
+    2300006: Schellenkranz_Becken2
+    2300008: Schellenkranz_Becken3
+    2300010: Schellenkranz_Becken4
+    2300012: Schellenkranz_Becken5
+    2300014: Schellenkranz_Becken6
+    2300016: Schellenkranz_Becken7
+    2300018: Schellenkranz_Becken8
+    2300020: Schellenkranz_Becken9
+    2300022: Schellenkranz_pCylinder4
+    2300024: Schellenkranz_pCylinder5
+    2300026: Schellenkranz_pCylinder6
+    2300028: Schellenkranz_pCylinder7
+    2300030: Schellenkranz_pCylinder8
+    3300000: Ring_Schellenkranz
+    3300002: Schellenkranz_Becken
+    3300004: Schellenkranz_Becken1
+    3300006: Schellenkranz_Becken2
+    3300008: Schellenkranz_Becken3
+    3300010: Schellenkranz_Becken4
+    3300012: Schellenkranz_Becken5
+    3300014: Schellenkranz_Becken6
+    3300016: Schellenkranz_Becken7
+    3300018: Schellenkranz_Becken8
+    3300020: Schellenkranz_Becken9
+    3300022: Schellenkranz_pCylinder4
+    3300024: Schellenkranz_pCylinder5
+    3300026: Schellenkranz_pCylinder6
+    3300028: Schellenkranz_pCylinder7
+    3300030: Schellenkranz_pCylinder8
+    4300000: Ring_Schellenkranz
+    4300002: Schellenkranz_Becken
+    4300004: Schellenkranz_Becken1
+    4300006: Schellenkranz_Becken2
+    4300008: Schellenkranz_Becken3
+    4300010: Schellenkranz_Becken4
+    4300012: Schellenkranz_Becken5
+    4300014: Schellenkranz_Becken6
+    4300016: Schellenkranz_Becken7
+    4300018: Schellenkranz_Becken8
+    4300020: Schellenkranz_Becken9
+    4300022: Schellenkranz_pCylinder4
+    4300024: Schellenkranz_pCylinder5
+    4300026: Schellenkranz_pCylinder6
+    4300028: Schellenkranz_pCylinder7
+    4300030: Schellenkranz_pCylinder8
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ring_SchellenkranzMat
+    second: {fileID: 2100000, guid: 4a37b0f06d39da943b87de7ce80290c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_Becken1Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_Becken2Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_Becken3Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_Becken4Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_Becken5Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_Becken6Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_Becken7Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_Becken8Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_Becken9Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_BeckenMat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_pCylinder4Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_pCylinder5Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_pCylinder6Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_pCylinder7Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schellenkranz_pCylinder8Mat
+    second: {fileID: 2100000, guid: 73bd26defb8fbc74cb442e05da75a7ff, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
