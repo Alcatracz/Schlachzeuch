@@ -7,8 +7,10 @@ using Valve.VR.InteractionSystem;
 public class Drumstick : MonoBehaviour
 {
     [EnumFlags] 
-    public Hand.AttachmentFlags attachmentFlags = Hand.defaultAttachmentFlags; 
+    public Hand.AttachmentFlags attachmentFlags = Hand.defaultAttachmentFlags;
 
+    private Coroutine routine;
+    private Vector3 direction;
 
     public string attachmentPoint; 
     [Tooltip("When detaching the object, should it return to its original parent?")] 
@@ -28,6 +30,7 @@ public class Drumstick : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         ve = GetComponent<VelocityEstimator>();
         ve.BeginEstimatingVelocity();
+        BeginDirection();
     }
 
   
@@ -35,6 +38,7 @@ public class Drumstick : MonoBehaviour
     public void Collided()
     {
         ve.FinishEstimatingVelocity();
+        FinishDirection();
         velocity = ve.GetVelocityEstimate();
         stickvelocity = velocity.magnitude;
         if (stickvelocity < 0)
@@ -43,8 +47,14 @@ public class Drumstick : MonoBehaviour
         }
         Debug.Log("Velocity: " + stickvelocity);
         ve.BeginEstimatingVelocity();
+        BeginDirection();
         hand.controller.TriggerHapticPulse(400);
         
+    }
+
+    public Vector3 GetDirection()
+    {
+        return this.direction;
     }
 
     public float GetStickVelocity()
@@ -108,6 +118,41 @@ public class Drumstick : MonoBehaviour
         gameObject.SetActive(true);
         OnAttachedToHand(hand);
     }
-    
 
-}
+    public void BeginDirection()
+    {
+        FinishDirection();
+
+        routine = StartCoroutine(DirectionCoroutine());
+    }
+
+
+    //-------------------------------------------------
+    public void FinishDirection()
+    {
+        if (routine != null)
+        {
+            StopCoroutine(routine);
+            routine = null;
+        }
+    }
+
+    private IEnumerator DirectionCoroutine()
+    {   
+        Vector3 previousPosition = transform.position;
+
+        while (true)
+        {
+            yield return new WaitForEndOfFrame();
+
+            direction = transform.position - previousPosition;
+
+
+            previousPosition = transform.position;   
+        }
+
+    }
+
+
+
+    }

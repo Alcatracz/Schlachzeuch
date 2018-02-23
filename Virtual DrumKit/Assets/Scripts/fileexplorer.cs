@@ -8,8 +8,8 @@ public class fileexplorer : MonoBehaviour {
 	string path;
 
 	public void OpenExplorer(){
-		
-         path = EditorUtility.OpenFolderPanel("Choose", "", "");
-
+        Debug.Log("Hello");
+        path = EditorUtility.OpenFolderPanel("Choose", "", "");
+        Debug.Log("Hello");
 }
 }
