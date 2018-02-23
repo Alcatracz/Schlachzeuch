@@ -31,6 +31,21 @@ public class PlayAudio : MonoBehaviour
     {
         if (other.gameObject.tag == "Stick")
         {
+            Vector3 direction = other.transform.position - transform.position;
+
+            if (Vector3.Dot(transform.forward, direction) > 0)
+            {
+                print("Back");
+            }
+            if (Vector3.Dot(transform.forward, direction) < 0)
+            {
+                print("Front");
+            }
+            if (Vector3.Dot(transform.forward, direction) == 0)
+            {
+                print("Side");
+            }
+
             print("Stick hit");
 
             other.gameObject.GetComponent<Drumstick>().Collided();
