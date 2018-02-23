@@ -12,7 +12,7 @@ public class Warning : MonoBehaviour {
 	}
 	
 	void Update(){
-		if (inputfield.text.Length >= 36) {
+		if (inputfield.text.Length >= 35) {
 			warning.SetActive (true);
 		} else {
 			warning.SetActive (false);

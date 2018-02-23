@@ -26,8 +26,7 @@ public class RecorAudiotoObject : MonoBehaviour
 
 	void Start()
 	{
-		fileName = Application.persistentDataPath + "/recording.wav";
-		print("lololol"+Application.persistentDataPath);
+		fileName = Application.persistentDataPath + "/"+DateTime.Now.ToString+".wav";
 	}
 
 	void Update()
