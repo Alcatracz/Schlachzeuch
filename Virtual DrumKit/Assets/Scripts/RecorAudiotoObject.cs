@@ -51,7 +51,7 @@ public class RecorAudiotoObject : MonoBehaviour
 				cd = (GameObject)Instantiate (cdprefab, Creationpoint.transform.position, Creationpoint.transform.rotation);
 				cdscript = (CD)cd.GetComponent<CD>();
 				DateTime theTime = DateTime.Now;
-				string date = theTime.ToString("yyyy-M-d dddd");
+				string date = theTime.ToString("yyyy-M-d dddd hh-mm-ss");
 				fileName = Application.persistentDataPath +date+".wav";
 				cdscript.setpath (fileName);
 				print (cdscript.getpath());
