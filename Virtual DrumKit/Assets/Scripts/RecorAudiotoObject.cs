@@ -27,7 +27,6 @@ public class RecorAudiotoObject : MonoBehaviour
 	void Start()
 	{
 		
-		fileName = Application.persistentDataPath + "/recording.wav";
 	}
 
 	void Update()
@@ -40,6 +39,9 @@ public class RecorAudiotoObject : MonoBehaviour
 			print("rec");
 			if (recOutput == false)
 			{
+                DateTime theTime = DateTime.Now;
+				string date = theTime.ToString("yyyy-M-dddddhh-mm-ss");
+				fileName = Application.persistentDataPath +"/"+date+".wav";
 				StartWriting(fileName);
 				recOutput = true;
 			}
@@ -50,9 +52,6 @@ public class RecorAudiotoObject : MonoBehaviour
 				print("rec stop");
 				cd = (GameObject)Instantiate (cdprefab, Creationpoint.transform.position, Creationpoint.transform.rotation);
 				cdscript = (CD)cd.GetComponent<CD>();
-				DateTime theTime = DateTime.Now;
-				string date = theTime.ToString("yyyy-M-d dddd hh-mm-ss");
-				fileName = Application.persistentDataPath +date+".wav";
 				cdscript.setpath (fileName);
 				print (cdscript.getpath());
 				WWW www = new WWW ("file://"+fileName);

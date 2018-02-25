@@ -10,7 +10,7 @@ public class VRUIFunctions : MonoBehaviour {
 	}
 
 	public void starttheGame(){
-		SceneManager.LoadScene ("GameScene");
+		SceneManager.LoadScene ("Final");
 	}
 
 	public void quittheGame(){
