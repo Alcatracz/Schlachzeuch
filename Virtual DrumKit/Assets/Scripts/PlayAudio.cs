@@ -40,18 +40,18 @@ public class PlayAudio : MonoBehaviour
             direction = other.gameObject.GetComponent<Drumstick>().GetDirection();
 
 
-            if (direction.y<0) { 
+            //if (direction.y<0) { 
             Lautstaerke ls = Lautstaerke.Leise;
             if (stickVelocity<= 1)
             {
                 print("Leise");
                 ls = Lautstaerke.Leise;
             }
-            else if(stickVelocity>1 && stickVelocity<=4)
+            else if(stickVelocity>1 && stickVelocity<=2.5)
             {
                 print("Mittel");
                 ls = Lautstaerke.Mittel ;
-            } else if (stickVelocity>4)
+            } else if (stickVelocity>2.5)
             {
                 print("Laut");
                 ls = Lautstaerke.Laut;
@@ -75,15 +75,22 @@ public class PlayAudio : MonoBehaviour
                     break;
 
             }
+            print("StickVelocity"+stickVelocity);
             audioSource.volume = standardvolume * stickVelocity;
-            audioSource.Play();
+            StartCoroutine(DirectionCoroutine());
             print("Play");
                 //audio.volume = standardvolume;
             }
 
         }
 
+    private IEnumerator DirectionCoroutine()
+    {
+        yield return new WaitForFixedUpdate();
+        audioSource.Play();
+    }
+
     }
 
 
-}
+//}

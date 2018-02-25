@@ -11,6 +11,7 @@ public class AudioPlayer : MonoBehaviour
         if (other.gameObject.tag == "CD")
         {
             other.gameObject.GetComponent<AudioSource>().Play();
+            Debug.Log("SoundAbsch");
           
         }
     }
