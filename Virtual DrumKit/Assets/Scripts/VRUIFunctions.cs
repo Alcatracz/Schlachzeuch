@@ -17,5 +17,9 @@ public class VRUIFunctions : MonoBehaviour {
 		Application.Quit();
 	}
 
+	public void quittoMainMenu(){
+		SceneManager.LoadScene ("UI");
+	}
+
 }
 
