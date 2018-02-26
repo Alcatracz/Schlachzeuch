@@ -13,6 +13,10 @@ public class VRUIFunctions : MonoBehaviour {
 		SceneManager.LoadScene ("Final");
 	}
 
+	public void starttheGamewTutorial(){
+		SceneManager.LoadScene ("FinalwithTutorial");
+	}
+
 	public void quittheGame(){
 		Application.Quit();
 	}
