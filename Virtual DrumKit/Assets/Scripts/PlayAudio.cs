@@ -77,6 +77,7 @@ public class PlayAudio : MonoBehaviour
             }
             print("StickVelocity"+stickVelocity);
             audioSource.volume = standardvolume * stickVelocity;
+            print("Volume: "+audioSource.volume);
             StartCoroutine(DirectionCoroutine());
             print("Play");
                 //audio.volume = standardvolume;
