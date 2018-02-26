@@ -11,6 +11,7 @@ public class InteractableButton : MonoBehaviour {
     public UnityEvent onButtonPress;
     public string beginHintText = "Start Recording";
     public string endHintText = "End Recording";
+	public GameObject toggleGOstate;
 
     //public AudioClip buttonPressSound;
     private AudioSource audioSource;
@@ -66,6 +67,18 @@ public class InteractableButton : MonoBehaviour {
             isRecording = true;
         }
     }
+
+	public void ToggleGOState()
+	{
+		if (toggleGOstate.activeSelf)
+		{
+			toggleGOstate.SetActive (false);
+		}
+		else
+		{
+			toggleGOstate.SetActive (true);
+		}
+	}
 }
 
 
