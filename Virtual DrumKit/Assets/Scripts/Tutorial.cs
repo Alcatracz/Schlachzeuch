@@ -32,4 +32,24 @@ public class Tutorial : MonoBehaviour {
 			popuptext.text="Hier gibt es noch einige weitere simple Instrumente mit denen du spielen kannst nimm sie einfach auf.";
 		}
 	}
+
+	void OnTriggerExit(Collider other)
+	{
+		if (other.gameObject.name == "Schlagzeuglocation")
+		{
+			popup.SetActive (false);
+		}
+		else if (other.gameObject.name == "Aufnahmelocation")
+		{
+			popup.SetActive (false);
+		}
+		else if (other.gameObject.name == "Aufnahmeabspielenlocation")
+		{
+			popup.SetActive (false);
+		}
+		else if (other.gameObject.name == "Perkursionsinstrumentelocation"||other.gameObject.name == "Perkursionsinstrumentelocation2")
+		{
+			popup.SetActive (false);
+		}
+	}
 }
