@@ -13,13 +13,13 @@ public class Tutorial : MonoBehaviour {
 		if (other.gameObject.name == "Schlagzeuglocation")
 		{
 			popup.SetActive (true);
-			popuptext.text="Nimm die Drumsticks mit Hilfe des Controllers auf und Spiele das Schlagzeug";
+			popuptext.text="Hier kannst du gleich loslegen und am Schlagzeug spielen. Solltest du noch keine Drumsticks haben befinden sich diese auf dem Sofatisch links von dir.";
 			Debug.Log ("Nimm die Drumsticks mit Hilfe des Controllers auf und Spiele das Schlagzeug");
 		}
 		else if (other.gameObject.name == "Aufnahmelocation")
 		{
 			popup.SetActive (true);
-			popuptext.text="Drücke den Knopf auf dem Mikrophone um eine Aufnahme zu beginnen und erneut um selbige zu stoppen";
+			popuptext.text="Drücke den roten Knopf auf dem Mikrophone um eine Aufnahme zu beginnen und erneut um selbige zu stoppen. Hiernach solltest du dich zur Position 'Aufnahmeabspielen' teleportieren";
 		}
 		else if (other.gameObject.name == "Aufnahmeabspielenlocation")
 		{
