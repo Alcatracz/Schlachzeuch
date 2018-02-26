@@ -5,31 +5,31 @@ using UnityEngine.UI;
 
 public class Tutorial : MonoBehaviour {
 
-	//public GameObject popup;
-	//public Text popuptext;
+	public GameObject popup;
+	public Text popuptext;
 
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.name == "Schlagzeuglocation")
 		{
-			//popup.SetActive (true);
-			//popuptext.text="Nimm die Drumsticks mit Hilfe des Controllers auf und Spiele das Schlagzeug";
+			popup.SetActive (true);
+			popuptext.text="Nimm die Drumsticks mit Hilfe des Controllers auf und Spiele das Schlagzeug";
 			Debug.Log ("Nimm die Drumsticks mit Hilfe des Controllers auf und Spiele das Schlagzeug");
 		}
 		else if (other.gameObject.name == "Aufnahmelocation")
 		{
-			//popup.SetActive (true);
-			//popuptext.text="Drücke den Knopf auf dem Mikrophone um eine Aufnahme zu beginnen und erneut um selbige zu stoppen";
+			popup.SetActive (true);
+			popuptext.text="Drücke den Knopf auf dem Mikrophone um eine Aufnahme zu beginnen und erneut um selbige zu stoppen";
 		}
 		else if (other.gameObject.name == "Aufnahmeabspielenlocation")
 		{
-			//popup.SetActive (true);
-			//popuptext.text="Wen du eine Aufnahme abgeschlossen hast erscheint auf dem Tisch vor dir eine CD die du abspielen kannst, indem du diese auf den Recorder legst";
+			popup.SetActive (true);
+			popuptext.text="Wen du eine Aufnahme abgeschlossen hast erscheint auf dem Tisch vor dir eine CD die du abspielen kannst, indem du diese auf den Recorder legst";
 		}
 		else if (other.gameObject.name == "Perkursionsinstrumentelocation"||other.gameObject.name == "Perkursionsinstrumentelocation2")
 		{
-			//popup.SetActive (true);
-			//popuptext.text="Hier gibt es noch einige weitere simple Instrumente mit denen du spielen kannst nimm sie einfach auf.";
+			popup.SetActive (true);
+			popuptext.text="Hier gibt es noch einige weitere simple Instrumente mit denen du spielen kannst nimm sie einfach auf.";
 		}
 	}
 }
