@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1115934201165688}
+  m_IsPrefabParent: 1
+--- !u!1 &1115934201165688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4605183031336242}
+  - component: {fileID: 114227689137130574}
+  m_Layer: 0
+  m_Name: PhysicstickItemPackage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4605183031336242
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1115934201165688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.67288285, y: 0.01, z: -0.34160104}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114227689137130574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1115934201165688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f83db71b9a6764abf964ab7679f035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Physicsticks
+  packageType: 2
+  itemPrefab: {fileID: 1728573387688452, guid: 8916b86a6d55a3942abd2aaac34d1bbc, type: 2}
+  otherHandItemPrefab: {fileID: 1728573387688452, guid: 8916b86a6d55a3942abd2aaac34d1bbc,
+    type: 2}
+  previewPrefab: {fileID: 1768491924727486, guid: 8abd693277caf7849ab326769f9898eb,
+    type: 2}
+  fadedPreviewPrefab: {fileID: 1692940664186278, guid: 13f938104b59029489acb4ba5da0eab8,
+    type: 2}
